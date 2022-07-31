@@ -66,15 +66,13 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
-}
-
-.player--active .current {
-  opacity: 1;
 }
 
 .current {
@@ -86,6 +84,10 @@ main {
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
+}
+
+.player--active .current {
+  opacity: 1;
 }
 
 .current-label {
@@ -113,11 +115,9 @@ main {
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
-
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
@@ -132,9 +132,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }

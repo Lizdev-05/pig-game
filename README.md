@@ -20,7 +20,7 @@ The project contains the Dice, 2 players, scores and the accumulated score.
 - Linters
 
 ## Live Demo 
-[Click to check my awesome book shelf](https://lizdev-05.github.io/Awesome-Books/)
+[Click to check my awesome book shelf]https://lizdev-05.github.io/pig-game/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
